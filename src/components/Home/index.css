@@ -1,0 +1,73 @@
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.MainHeading {
+  font: 'Inter';
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #000000;
+}
+.ContainerInputElements {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.InputStyle {
+  width: 80%;
+  height: 33px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding-left: 10px;
+  background-color: #f8f8f8;
+  padding-right: 10px;
+  outline: none;
+}
+.InputStyle:hover {
+  transform: scale(1.01);
+}
+.List1 {
+  width: 30px;
+  height: 30px;
+}
+.Button1 {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  margin-left: 15px;
+}
+.Button1:hover {
+  transform: scale(1.03);
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.UlStylingHome {
+  width: 90%;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.UlStyleContainer2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.NoProductsFoundContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.NoProductsFoundHeading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+}
